@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run test.exe (clean output)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/test.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build test.cpp"
+    }
+  ]
+}
